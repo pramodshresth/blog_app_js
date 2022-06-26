@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Blog App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar_main">
+      <h2>Blog App</h2>
+      <div>
+        <input type="text" value="" placeholder="Search by title" class="search-field">
+        <input type="button" value="Search" class="search-btn-submit">
+      </div>
+      <ul class="navbar_items">
+        <li>Home</li>
+        <li>Add Blog</li>
+        <li>About</li> 
+        <li>Blog</li>
+      </ul>
+
+    </nav>
+    <!-- navbar End -->
+
+    <!-- Add Blog Form Start -->
+     <div class="add_blog_main_div">
+       <div class="add_blog_form_div">
+        <h3>Add Blog</h3>
+        <p>Title : <p>
+        <input type="text" placeholder="Enter a title" id="titleField" class="add-blog-input-field" >
+       <br>
+       <br>
+       <p>Description : <p>
+        <input type="text" placeholder="Enter a Description" id="descriptionField" class="add-blog-input-field" >
+        <br>
+        <br>
+        <input type="button" value="Add Blog" id="submit" class="search-btn-submit" onclick="addBlog()" >
+       </div>
+    </div>
+     <br>
+     <hr>
+     <!-- Add Blog Form End -->
+   
+     <div id="blogDetails">
+
+
+      
+
+     </div>
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
